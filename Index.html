@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Registration Form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/502bb53a-f630-4caa-aa0c-0d76b365852a.png" alt="Baseball player in action pose" width="340" height="250">      
+            </td>
+            <td>
+                <p>
+                    Want to be a professional baseball player? Please complete the registration form below.<br>
+                    We'll review your submission and get back to you shortly!
+                </p>
+            </td>
+        </tr>
+    </table>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Male"> Male<br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="text" id="contact" name="contact"><br><br>
+
+        <!-- Hobbies Section -->
+        <fieldset>
+            <legend><strong>Hobbies:</strong></legend>
+            <label><input type="checkbox" name="hobby" value="exercise"> Exercise</label><br>
+            <label><input type="checkbox" name="hobby" value="biking"> Biking</label><br>
+            <label><input type="checkbox" name="hobby" value="reading"> Reading</label><br>
+            <label><input type="checkbox" name="hobby" value="cleaning"> Cleaning</label><br>
+            <label><input type="checkbox" name="hobby" value="baseball"> Playing Baseball</label><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Submit Your Application">
+    </form>
+</body>
+</html>
